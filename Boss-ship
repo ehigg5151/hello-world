@@ -1,0 +1,68 @@
+ship "Shield Beetle"
+	name "Shock Rocker"
+	sprite "ship/hai shield beetle"
+	attributes
+		category "Heavy Warship"
+		bunks 95
+		"cargo space" 142
+		cost 17900000
+		drag 8.8
+		"engine capacity" 150
+		"fuel capacity" 500
+		"gun ports" 8
+		"heat dissipation" 0.6
+		hull 9800
+		mass 650
+		"outfit space" 921
+		"required crew" 47
+		shields 32000
+		"turret mounts" 4
+		"weapon capacity" 333
+	outfits
+                "Cloaking Device"
+		"Liquid Nitrogen Cooler" 2
+		"Catalytic Ramscoop"
+		Hyperdrive
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Mass Expansion"
+		"Fuel Pod" 5
+		"Laser Rifle" 40
+		"A865 Atomic Steering"
+		"Nanotech Battery"
+		"Antimatter Core"
+		"Quarg Skylance" 2
+		"Quarg Anti-Missile" 2
+		"Intrusion Countermeasures" 120
+		"Medium Graviton Thruster"
+		"Quantum Shield Generator"
+		"Jump Drive"
+		"Korath Fire-Lance" 2
+		X.A.N.A.
+		"Neuron Matrix" 48
+	crew 1
+	fuel 1000
+	shields 32000
+	hull 9800
+	position 98.396648 -311.45637
+	engine -44 133
+	engine 44 133
+	gun -22 -102 "Korath Fire-Lance"
+	gun 22 -102 "Korath Fire-Lance"
+	gun -49 -38
+	gun 49 -38
+	gun -34 -68
+	gun 34 -68
+	gun -61 -14
+	gun 61 -14
+	turret -57 75 "Quarg Anti-Missile"
+	turret 57 75 "Quarg Anti-Missile"
+	turret -39 48 "Quarg Skylance"
+	turret 39 48 "Quarg Skylance"
+	explode "medium explosion" 50
+	explode "tiny explosion" 50
+	explode "big explosion" 50
+	explode "huge explosion" 20
+	explode "small explosion" 50
+	system Deneb
+	
